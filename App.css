@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    background: url(./Assets/6.jpeg);
+    background-size: cover;
+    width: 1500px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif, cursive;
+}
+.quote small {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+	display: block;
+	border: 2px solid #ffffff;
+	background: transparent;
+	padding: 10px 15px;
+ 
+	color: #fdfdfd;
+	font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background:rgb(1, 71, 125);
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.body
+{
+  color: aqua;
+}
+.tom
+{
+  background-color:rgba(1, 71, 125, 0);
+  color: #ffffff;
+  padding-bottom: 150px;
+}
+#I
+{
+  height: 100px;
+  width: 100px;
+  transform: translate(-250px,-70px);
+  position: sticky;
+}

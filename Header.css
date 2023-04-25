@@ -1,0 +1,11 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(1, 71, 125);
+    position: sticky;
+    color: white;
+  }
+  
